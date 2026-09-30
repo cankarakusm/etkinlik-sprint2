@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlik Güncelle</title>
+    <link rel="stylesheet" href="css/2416501042.css">
+</head>
+<body>
+    <header>
+        <h1>Kampüs Etkinlik Portalı</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="etkinlikler.html">Etkinlikler</a>
+            <a href="etkinlik-detay.html">Detay</a>
+            <a href="etkinlik-ekle.html">Ekle</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Etkinlik Bilgilerini Güncelle</h2>
+        <form action="#" method="post">
+            <div class="form-grup">
+                <label for="ad">Etkinlik Adı:</label>
+                <input type="text" id="ad" name="ad" value="Kariyer Günleri 2026" required>
+            </div>
+
+            <div class="form-grup">
+                <label for="tarih">Etkinlik Tarihi:</label>
+                <input type="date" id="tarih" name="tarih" value="2026-10-12" required>
+            </div>
+
+            <div class="form-grup">
+                <label for="konum">Konum / Salon:</label>
+                <input type="text" id="konum" name="konum" value="A Blok Konferans Salonu" required>
+            </div>
+
+            <div class="form-grup">
+                <label for="kategori">Kategori:</label>
+                <select id="kategori" name="kategori" required>
+                    <option value="konferans" selected>Konferans</option>
+                    <option value="atolye">Atölye</option>
+                    <option value="sosyal">Sosyal</option>
+                </select>
+            </div>
+
+            <div class="form-grup">
+                <label for="aciklama">Açıklama:</label>
+                <textarea id="aciklama" name="aciklama" rows="4">Öğrencilerin sektör liderleriyle buluşacağı kariyer etkinliği.</textarea>
+            </div>
+
+            <button type="submit">Güncellemeyi Kaydet</button>
+        </form>
+    </main>
+</body>
+</html>
