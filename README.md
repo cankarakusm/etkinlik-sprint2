@@ -1,1 +1,1 @@
-https://github.com/cankarakusm/etkinlik-sprint2
+https://etkinlik-sprint2.vercel.app
